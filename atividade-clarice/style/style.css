@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+}
+
+nav ul {
+   
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+    
+  
+}
+
+.btn-entrar {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-cadastrar {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.diferenciais {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.diferenciais h1 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #b30000;
+}
+
+.diferenciais h2 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: #333;
+}
+
+.diferenciais p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #666;
+    
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.stats div {
+    width: 200px;
+}
+
+.stats h3 {
+    font-size: 60px;
+    color: #b30000;
+    margin-bottom: 15px;
+}
+
+.stats h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+.stats p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.vaga-aberta {
+    display: inline-block;
+    background-color: #fceaea;
+    color: #b30000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.talentos {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.talentos img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.vagas {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.vagas h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.vaga {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vaga p {
+    margin: 5px 0;
+}
+
+.vaga .cargo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.vaga .info {
+    font-size: 16px;
+    color: #666;
+}
+
+.testemunhos {
+    background-color: #fceaea;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.testemunhos h3 {
+    font-size: 14px;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.testemunhos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.perfil p {
+    font-size: 16px;
+    color: #666;
+}
+
+.oportunidades {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.oportunidades form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.oportunidades form button {
+    background-color: #b30000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+    }
+
+    form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .perfil {
+        flex-direction: column;
+    }
+
+    .vaga {
+        width: 80%;
+    }
+
+    .logo-container h1 {
+        font-size: 20px;
+    }
+
+    .logo-container img {
+        width: 40px;
+    }
+}
